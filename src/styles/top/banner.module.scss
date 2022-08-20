@@ -12,7 +12,7 @@
     max-width: var(--maxWidth);
   }
 
-  :global(.btn) {
+  :global(.btn.btn-dark) {
     --bgcolor: var(--brown);
     --color: var(--yellow);
   }
@@ -23,4 +23,18 @@
   line-height: 1.2;
   margin-bottom: 1.5rem;
   font-weight: 800;
+}
+
+@media (max-width: 36rem) {
+  .container {
+    aspect-ratio: 0.75;
+    background: url('/assets/img/banner-sm.jpg');
+    background-size: cover;
+    background-position: center;
+
+    div {
+      align-items: center;
+      text-align: center;
+    }
+  }
 }

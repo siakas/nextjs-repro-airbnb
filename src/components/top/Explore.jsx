@@ -1,4 +1,4 @@
-import styles from '@/styles/top/explore.module.scss'
+import styles from '@/styles/top/Explore.module.scss'
 
 export default function Explore({ data }) {
   return (

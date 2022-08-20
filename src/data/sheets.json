@@ -28,7 +28,7 @@
         "img": "3.jpg"
       }
     ],
-    "urlPrefix": "/images/discover/"
+    "urlPrefix": "/assets/img/discover/"
   },
   "live": {
     "title": "Live anywhere",
@@ -50,7 +50,7 @@
         "img": "4.jpg"
       }
     ],
-    "urlPrefix": "/images/live/"
+    "urlPrefix": "/assets/img/live/"
   },
   "places": [
     { "name": "Bengaluru", "time": 3 },
@@ -70,5 +70,45 @@
     ["1.jpg", "2.jpg", "3.jpg", "15.jpg"],
     ["16.jpg", "17.jpg"],
     ["18.jpg", "14.jpg", "20.jpg"]
-  ]
+  ],
+  "footerSitemap": {
+    "about": {
+      "title": "About",
+      "items": [
+        { "name": "How Airbnb works", "url": "#", "lgHidden": false },
+        { "name": "Newsroom", "url": "#", "lgHidden": false },
+        { "name": "Airbnb 2021", "url": "#", "lgHidden": false },
+        { "name": "Investors", "url": "#", "lgHidden": false },
+        { "name": "Airbnb Plus", "url": "#", "lgHidden": false },
+        { "name": "Airbnb Luxe", "url": "#", "lgHidden": false },
+        { "name": "HotelTonight", "url": "#", "lgHidden": true },
+        { "name": "Airbnb for Work", "url": "#", "lgHidden": true },
+        { "name": "Made possible by Hosts", "url": "#", "lgHidden": true },
+        { "name": "Careers", "url": "#", "lgHidden": true },
+        { "name": "Founders&apos; Letter", "url": "#", "lgHidden": true }
+      ]
+    },
+    "community": {
+      "title": "Community",
+      "items": [
+        { "name": "Diversity & Belonging", "url": "#", "lgHidden": false },
+        { "name": "Accessibility", "url": "#", "lgHidden": false },
+        { "name": "Airbnb Associates", "url": "#", "lgHidden": false },
+        { "name": "Frontline Stays", "url": "#", "lgHidden": false },
+        { "name": "Guest Referrals", "url": "#", "lgHidden": false },
+        { "name": "Airbnb.org", "url": "#", "lgHidden": false }
+      ]
+    },
+    "host": {
+      "title": "Host",
+      "items": [
+        { "name": "Host your home", "url": "#", "lgHidden": false },
+        { "name": "Host an Online Experience", "url": "#", "lgHidden": false },
+        { "name": "Host an Experience", "url": "#", "lgHidden": false },
+        { "name": "Responsible hosting", "url": "#", "lgHidden": false },
+        { "name": "Resource Centre", "url": "#", "lgHidden": false },
+        { "name": "Community Centre", "url": "#", "lgHidden": false }
+      ]
+    }
+  }
 }

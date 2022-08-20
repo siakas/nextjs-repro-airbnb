@@ -1,4 +1,4 @@
-import styles from '@/styles/top/banner.module.scss'
+import styles from '@/styles/top/Banner.module.scss'
 
 export default function Banner() {
   return (
