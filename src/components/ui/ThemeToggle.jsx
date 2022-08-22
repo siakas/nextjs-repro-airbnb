@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Sun, Moon } from 'react-feather'
 import styles from '@/styles/ui/ThemeToggle.module.scss'
 
-export default function ThemeToggle({ text, icon }) {
+export default function ThemeToggle({ text, icon, className }) {
   const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
@@ -20,7 +20,7 @@ export default function ThemeToggle({ text, icon }) {
   }, [isDark])
 
   return (
-    <div className={styles.toggle} onClick={() => setIsDark(!isDark)}>
+    <div className={`${className} ${styles.toggle}`} onClick={() => setIsDark(!isDark)}>
       {icon && <>{isDark ? <Sun className="sun" /> : <Moon className="moon" />}</>}
       {text && 'Switch Theme'}
     </div>

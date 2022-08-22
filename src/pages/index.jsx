@@ -1,3 +1,4 @@
+import Header from '@/components/layout/Header'
 import Hero from '@/components/top/Hero'
 import Explore from '@/components/top/Explore'
 import Banner from '@/components/top/Banner'
@@ -9,6 +10,8 @@ import json from '@/data/sheets.json'
 export default function Home({ places, discover, live }) {
   return (
     <>
+      <Header />
+
       <main>
         <Hero />
         <Explore data={places} />
