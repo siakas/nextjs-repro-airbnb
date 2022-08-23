@@ -28,10 +28,7 @@ export default function FooterBottom() {
       </p>
 
       <p className={styles.copyright}>
-        &copy; 2021{' '}
-        <a href="https://www.ekzm.co.jp/" target="_blank" rel="noopener noreferrer">
-          EKZM
-        </a>
+        &copy; 2021 <a href="#">Fugiat Molestias</a>
       </p>
     </div>
   )

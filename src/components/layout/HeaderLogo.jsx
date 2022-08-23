@@ -9,7 +9,7 @@ export default function HeaderLogo() {
           fill="currentColor"
         />
       </svg>
-      <span>airbnb</span>
+      <span>airbnb repro</span>
     </div>
   )
 }
