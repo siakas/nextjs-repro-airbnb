@@ -7,6 +7,10 @@
     height: 2rem;
     color: #fafafc;
     transition: color 0.2s;
+
+    :global(.scrolled) & {
+      color: var(--red);
+    }
   }
 
   span {

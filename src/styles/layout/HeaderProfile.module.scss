@@ -34,6 +34,10 @@
     color: #fafafc;
   }
 
+  :global(.scrolled) & {
+    box-shadow: 0 0 0 2px var(--gray);
+  }
+
   :global(.menu) {
     color: #2e2e48;
     margin-right: 0.5rem;
