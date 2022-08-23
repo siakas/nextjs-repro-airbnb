@@ -13,7 +13,7 @@ export default function Explore({ data }) {
             </div>
             <span>
               <h3 className={styles.name}>{name}</h3>
-              <p className={styles.time}>{time}-hours drive</p>
+              <p className={styles.time}>{time}-hour drive</p>
             </span>
           </div>
         ))}
