@@ -66,6 +66,20 @@ const FormContainer = styled.form`
   transition: all 0.2s;
   transform-origin: center;
 
+  .scrolled & {
+    box-shadow: 0 0 0 2px var(--gray);
+    transform: translate(-50%, 0.125rem) scale(0.83);
+    width: 480px;
+
+    & > button {
+      max-width: 3rem;
+
+      span {
+        opacity: 0;
+      }
+    }
+  }
+
   & * {
     transition: all 0.2s;
   }

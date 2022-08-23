@@ -31,4 +31,9 @@
   :global(a.active::before) {
     transform: scaleX(1);
   }
+
+  :global(.scrolled) & {
+    opacity: 0;
+    pointer-events: none;
+  }
 }

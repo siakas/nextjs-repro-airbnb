@@ -14,6 +14,12 @@
   :global(.inputFocus) & {
     color: var(--dark);
   }
+
+  &:global(.scrolled):not(.inputFocus) {
+    background: var(--light);
+    color: var(--dark);
+    border-bottom: 2px solid var(--gray);
+  }
 }
 
 .inner {
