@@ -1,3 +1,4 @@
+import Meta from '@/components/layout/Meta'
 import Header from '@/components/layout/Header'
 import Hero from '@/components/top/Hero'
 import Explore from '@/components/top/Explore'
@@ -7,9 +8,11 @@ import Hosting from '@/components/top/Hosting'
 import Footer from '@/components/layout/Footer'
 import json from '@/data/sheets.json'
 
-export default function Home({ places, discover, live }) {
+export default function Home({ pages, places, discover, live }) {
   return (
     <>
+      <Meta {...pages} />
+
       <Header />
 
       <main>
@@ -31,6 +34,7 @@ export default function Home({ places, discover, live }) {
 export async function getStaticProps() {
   return {
     props: {
+      pages: json.pages.top,
       places: json.places,
       discover: json.discover,
       live: json.live,
