@@ -1,5 +1,6 @@
 .hero {
-  background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem), url('/assets/img/hero.jpg');
+  background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent 10rem),
+    url('/assets/img/hero.jpg');
   background-position: center, bottom left;
   background-size: cover, cover;
   height: fit-content;
@@ -20,13 +21,15 @@
     font-weight: 900;
     font-size: clamp(2rem, 5.5vw, 3.25rem);
     line-height: 1.2;
+    margin-top: 0;
     margin-bottom: 1.5rem;
   }
 }
 
 @media (max-width: 36rem) {
   .hero {
-    background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent), url('/assets/img/hero-sm.jpg');
+    background: linear-gradient(to bottom, #0a0c2c80 3rem, transparent),
+      url('/assets/img/hero-sm.jpg');
     background-position: center, bottom left;
     background-size: cover, cover;
     align-items: flex-start;

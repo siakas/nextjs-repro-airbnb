@@ -10,6 +10,10 @@
   > div {
     flex: 0 0 20%;
   }
+
+  :global(.inputFocus) & {
+    color: var(--dark);
+  }
 }
 
 .inner {
